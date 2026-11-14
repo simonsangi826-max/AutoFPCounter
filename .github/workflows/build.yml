@@ -39,7 +39,7 @@ jobs:
         id: build
         uses: geode-sdk/build-geode-mod@main
         with:
-          sdk: latest
+          sdk: 5.10.1
           cli: latest
           target: Win64
           build-config: RelWithDebInfo
